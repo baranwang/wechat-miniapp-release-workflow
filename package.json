@@ -1,0 +1,27 @@
+{
+  "name": "wechat-miniapp-release-workflow",
+  "version": "1.0.0",
+  "description": "wechat miniapp release workflow",
+  "bin": {
+    "release-wechat": "release.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baranwang/wechat-miniapp-release-workflow.git"
+  },
+  "keywords": [
+    "wechat",
+    "weapp",
+    "miniapp",
+    "miniprogram"
+  ],
+  "author": "Baran",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/baranwang/wechat-miniapp-release-workflow/issues"
+  },
+  "homepage": "https://github.com/baranwang/wechat-miniapp-release-workflow#readme"
+}
