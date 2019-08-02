@@ -11,6 +11,7 @@ done
 
 echo "\033[32mEnter release message: \033[0m"
 read MESSAGE
+MESSAGE=${MESSAGE:-$USER release at $(date "+%F %T")}
 
 clear
 
