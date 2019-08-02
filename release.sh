@@ -1,9 +1,6 @@
 #!/usr/bin/env sh
 set -e
 
-git pull
-git checkout master
-
 echo "\033[32mSelect release version level:\033[0m"
 select VERSION_LEVEL in patch minor major; do
   break
