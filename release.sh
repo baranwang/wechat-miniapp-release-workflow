@@ -32,5 +32,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 
   npm run build
 
-  /Applications/wechatwebdevtools.app/Contents/MacOS/cli -u $(npx -c 'echo "$npm_package_version"')@$(pwd) --upload-desc $MESSAGE
+  /Applications/wechatwebdevtools.app/Contents/MacOS/cli -u $(npx -c 'echo "$npm_package_version"')@$(pwd) --upload-desc "$MESSAGE"
 fi
